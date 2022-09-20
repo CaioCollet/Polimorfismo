@@ -10,16 +10,20 @@ package polimorfismo;
  * @author caio.collet
  */
 public class Polimorfismo {
-
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
-        Calculadora calc = new Calculadora ();
-        System.out.println(calc.somar(2, 3, 6));
-        
         
     
-    }
-    
+ 
+    Gato gato = new Gato();
+    Cachorro cachorro = new Cachorro();
+    Pato pato = new Pato();
+
+    gato.comunicar();
+    cachorro.comunicar();
+    pato.comunicar();
+
 }
+
+}
+
